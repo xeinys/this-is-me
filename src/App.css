@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Here we define our animation with the name "rotate" */
+@keyframes rotate {
+  from {
+    background: white;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    background: red;
+  }
+
+  to {
+    background: white;
+    transform: rotate(359deg);
+  }
+}
+
+.animated-border {
+  width: 10px;
+  height: 5px;
+  margin: auto;
+  /* Here we declare our inline animation */
+  animation: rotate 3s linear infinite;
+}
