@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "react-scripts build\ngh-pages -d build",
+    "deploy": "react-scripts build\necho lrichomme.fr >> build/CNAME\ngh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
