@@ -16,6 +16,7 @@ function App() {
                 <h1>LR - {age} {t('age-suffix')}</h1>
             </div>
             <div className='animated-border'></div>
+            <div className='animated-border'></div>
             <p></p>
         </>
 
